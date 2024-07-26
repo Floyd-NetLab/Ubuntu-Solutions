@@ -46,4 +46,5 @@ volumes:
 
 
 
-#### default username: administrator  password: password
+#### Default username: administrator  
+#### Default password: password
