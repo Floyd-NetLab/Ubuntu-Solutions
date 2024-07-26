@@ -1,6 +1,6 @@
 # How to Setup Nginx Fileserver For File Sharing
 
-## login to putty
+## First login to putty
 
 ```
 mkdir fileserver
