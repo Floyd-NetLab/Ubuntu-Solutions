@@ -1,7 +1,6 @@
-
 # How to Setup Nginx Fileserver For File Sharing
 
-login to putty
+## login to putty
 
 ```
 mkdir fileserver
@@ -15,7 +14,7 @@ cd fileserver
 nano default.config
 ```
 
-#copy paste this section
+## copy paste this section
 
 ```
 server {
