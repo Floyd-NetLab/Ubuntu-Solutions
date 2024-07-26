@@ -67,7 +67,7 @@ server {
 nano docker-compose.yml
 ```
 
-#copy paste this section
+## copy paste this section
 
 ```
 version: '3'
