@@ -3,16 +3,23 @@
 
 login to putty
 
-```mkdir fileserver```
+```
+mkdir fileserver
+```
 
-```cd fileserver```
+```
+cd fileserver
+```
 
-```nano default.config```
+```
+nano default.config
+```
 
 #copy paste this section
 
-```server {
-    listen       80;  
+```
+server {
+    listen       80;
     listen  [::]:80;
     server_name  localhost;
 
@@ -57,11 +64,14 @@ login to putty
 }
 ```
 
-```nano docker-compose.yml```
+```
+nano docker-compose.yml
+```
 
 #copy paste this section
 
-```version: '3'
+```
+version: '3'
 services:
   nginx:
     image: nginx:stable-alpine-slim
@@ -71,11 +81,17 @@ services:
     ports:
       - 80:80
 ```
-```mkdir data```
+```
+mkdir data
+```
 
-```docker-compose pull```
+```
+docker-compose pull
+```
 
-```docker-compose up -d```
+```
+docker-compose up -d
+```
 
 
 
